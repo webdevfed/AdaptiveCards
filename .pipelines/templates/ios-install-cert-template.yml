@@ -10,7 +10,7 @@ steps:
   displayName: 'Install Provisioning Profile'
   inputs:
     provisioningProfileLocation: 'secureFiles'
-    provProfileSecureFile: 'iOS_Team_Provisioning_Profile.mobileprovision'
+    provProfileSecureFile: '48029c40-089d-4764-9837-89226f37f02e.mobileprovision'
 - template: ios-build-template.yml
   parameters:
     sdk: iphoneos
