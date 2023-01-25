@@ -11,11 +11,25 @@ steps:
   inputs:
     provisioningProfileLocation: 'secureFiles'
     provProfileSecureFile: 'iOS_Team_Provisioning_Profile.mobileprovision'
-- task: Xcode@5
+
+- task: CocoaPods@0
+  displayName: 'Installing dependency via pod'
   inputs:
+    workingDirectory: 'source/ios/AdaptiveCards'
+    forceRepoUpdate: false
+
+- task: Xcode@5
+  displayName: 'Compiling...'
+  inputs:
+    actions: 'build'
+    xcWorkspacePath: 'source/ios/AdaptiveCards/AdaptiveCards.xcworkspace'
+    xcodeVersion: 'default'
     signingOption: 'manual'
     signingIdentity: '$(APPLE_CERTIFICATE_SIGNING_IDENTITY)'
     provisioningProfileUuid: '$(APPLE_PROV_PROFILE_UUID)'
     sdk: iphoneos
     packageApp: true
     configuration: Release
+    destinationPlatformOption: 'iOS'
+    destinationSimulators: 'iPhone 12'
+
