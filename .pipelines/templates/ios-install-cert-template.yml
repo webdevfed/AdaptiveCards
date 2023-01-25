@@ -23,6 +23,7 @@ steps:
   inputs:
     actions: 'build'
     xcWorkspacePath: 'source/ios/AdaptiveCards/AdaptiveCards.xcworkspace'
+    scheme: 'ADCIOSVisualizer'
     xcodeVersion: 'default'
     signingOption: 'manual'
     signingIdentity: '$(APPLE_CERTIFICATE_SIGNING_IDENTITY)'
