@@ -18,4 +18,3 @@ steps:
     signingOption: auto
     packageApp: true
     configuration: Release
-    useXcpretty: false
