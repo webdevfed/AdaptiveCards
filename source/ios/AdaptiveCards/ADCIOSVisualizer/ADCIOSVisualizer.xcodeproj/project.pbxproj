@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02EA0F0381C5975E2B40AC3C /* Pods_ADCIOSVisualizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D28A97633DB886A2E522FAD /* Pods_ADCIOSVisualizer.framework */; };
 		30860BC220C9B5C9009F9D99 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
 		30860BC420C9B5C9009F9D99 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
 		6B055764233EC53D000EE24A /* RichTextBlock.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B055763233EC53D000EE24A /* RichTextBlock.json */; };
@@ -94,6 +93,7 @@
 		6BFF998525F941BE0028069F /* CustomActionOpenURLRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F4F255711F993CD200A80D39 /* CustomActionOpenURLRenderer.mm */; };
 		6BFF9A12260132800028069F /* Action.ExecuteTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF9A11260132800028069F /* Action.ExecuteTest.mm */; };
 		6BFF9A18260155240028069F /* Action.Execute.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BFF9A17260155240028069F /* Action.Execute.json */; };
+		79ED360A0638CBCC86508411 /* libPods-ADCIOSVisualizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAE6592BCF51FA343ADC148 /* libPods-ADCIOSVisualizer.a */; };
 		F423C0771EE1FB6100905679 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F423C0761EE1FB6100905679 /* main.m */; };
 		F423C07A1EE1FB6100905679 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F423C0791EE1FB6100905679 /* AppDelegate.m */; };
 		F423C07D1EE1FB6100905679 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F423C07C1EE1FB6100905679 /* ViewController.m */; };
@@ -236,8 +236,8 @@
 		6BFBF9602457ADCF006FF8FB /* ActionSet.Inputs.Tests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ActionSet.Inputs.Tests.json; sourceTree = "<group>"; };
 		6BFF9A11260132800028069F /* Action.ExecuteTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Action.ExecuteTest.mm; sourceTree = "<group>"; };
 		6BFF9A17260155240028069F /* Action.Execute.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Action.Execute.json; sourceTree = "<group>"; };
-		8D28A97633DB886A2E522FAD /* Pods_ADCIOSVisualizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADCIOSVisualizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AE7CE62B15FF33461CE4D2 /* Pods-ADCIOSVisualizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADCIOSVisualizerUITests.release.xcconfig"; path = "Target Support Files/Pods-ADCIOSVisualizerUITests/Pods-ADCIOSVisualizerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CFAE6592BCF51FA343ADC148 /* libPods-ADCIOSVisualizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADCIOSVisualizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7181A8AD0E889C79FE0E50B /* Pods-ADCIOSVisualizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADCIOSVisualizer.release.xcconfig"; path = "Target Support Files/Pods-ADCIOSVisualizer/Pods-ADCIOSVisualizer.release.xcconfig"; sourceTree = "<group>"; };
 		ED56B4B7308EE7B480ABD5CA /* Pods-Fluent-ADCIOSVisualizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fluent-ADCIOSVisualizerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fluent-ADCIOSVisualizerUITests/Pods-Fluent-ADCIOSVisualizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F423C0721EE1FB6100905679 /* ADCIOSVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADCIOSVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -274,7 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BF339E320A66A3F00DA5973 /* AdaptiveCards.framework in Frameworks */,
-				02EA0F0381C5975E2B40AC3C /* Pods_ADCIOSVisualizer.framework in Frameworks */,
+				79ED360A0638CBCC86508411 /* libPods-ADCIOSVisualizer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +397,7 @@
 				6B980930215AE4310024B79B /* CoreGraphics.framework */,
 				6B2D8604211143BD008DD972 /* AdaptiveCards.framework */,
 				6BF339E220A66A3F00DA5973 /* AdaptiveCards.framework */,
-				8D28A97633DB886A2E522FAD /* Pods_ADCIOSVisualizer.framework */,
+				CFAE6592BCF51FA343ADC148 /* libPods-ADCIOSVisualizer.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -534,7 +534,6 @@
 				F423C06F1EE1FB6100905679 /* Frameworks */,
 				F423C0701EE1FB6100905679 /* Resources */,
 				F423C0D51EE1FE3A00905679 /* Embed Frameworks */,
-				BB44738DDDEABD33748CEB4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -740,24 +739,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB44738DDDEABD33748CEB4E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ADCIOSVisualizer/Pods-ADCIOSVisualizer-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MicrosoftFluentUI/FluentUI.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FluentUI.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ADCIOSVisualizer/Pods-ADCIOSVisualizer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
