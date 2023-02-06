@@ -33,4 +33,4 @@ steps:
     packageApp: true
     configuration: Release
     destinationPlatformOption: 'iOS'
-    destinationSimulators: 'default'
+    destinationSimulators: 'iPhone 12'
