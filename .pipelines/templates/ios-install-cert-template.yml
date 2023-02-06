@@ -15,6 +15,6 @@ steps:
 - template: ios-build-template.yml
   parameters:
     sdk: iphoneos
-    signingOption: auto
+    signingOption: default
     packageApp: true
     configuration: Release
