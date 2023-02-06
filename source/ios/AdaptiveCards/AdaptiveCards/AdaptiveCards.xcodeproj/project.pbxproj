@@ -445,9 +445,7 @@
 		F4FE456E1F1985200071D9E5 /* ACRColumnSetView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4FE456C1F1985200071D9E5 /* ACRColumnSetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4FE456F1F1985200071D9E5 /* ACRColumnSetView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F4FE456D1F1985200071D9E5 /* ACRColumnSetView.mm */; };
 		F974C5362800B8E100C1B3C7 /* CaptionSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F974C5342800B8E000C1B3C7 /* CaptionSource.cpp */; };
-		F974C5372800B8E100C1B3C7 /* CaptionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F974C5352800B8E000C1B3C7 /* CaptionSource.h */; };
 		F974C53A2800B8EA00C1B3C7 /* ContentSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F974C5382800B8EA00C1B3C7 /* ContentSource.cpp */; };
-		F974C53B2800B8EA00C1B3C7 /* ContentSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F974C5392800B8EA00C1B3C7 /* ContentSource.h */; };
 		F9A9E55126FE9FA000D13410 /* CollectionCoreElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9A9E54F26FE9FA000D13410 /* CollectionCoreElement.cpp */; };
 		F9A9E55226FE9FA000D13410 /* CollectionCoreElement.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A9E55026FE9FA000D13410 /* CollectionCoreElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9A9E55526FE9FE400D13410 /* StyledCollectionElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9A9E55326FE9FE400D13410 /* StyledCollectionElement.cpp */; };
@@ -1787,14 +1785,12 @@
 				6BFF99ED2600387A0028069F /* ACOTokenExchangeResource.h in Headers */,
 				6BFF99FC26003EBA0028069F /* ACOAuthCardButton.h in Headers */,
 				6BFF99E0260012380028069F /* ACORefresh.h in Headers */,
-				F974C5372800B8E100C1B3C7 /* CaptionSource.h in Headers */,
 				6B94F2DD24C7997D00E2B310 /* ACRTextInputHandler.h in Headers */,
 				6BD025ED254784670009B019 /* ACOInputResults.h in Headers */,
 				6BFF24162714FA1D00183C59 /* AdaptiveCards.h in Headers */,
 				6BFF23F62714C0F000183C59 /* ACRRendererPrivate.h in Headers */,
 				6BFF23F52714C0F000183C59 /* ACOAdaptiveCardPrivate.h in Headers */,
 				6BFF24042714E1BD00183C59 /* ACRDateTextField.h in Headers */,
-				F974C53B2800B8EA00C1B3C7 /* ContentSource.h in Headers */,
 				6BFF23F92714C0F000183C59 /* ACORefreshPrivate.h in Headers */,
 				6BFF240C2714E3D100183C59 /* ACRSeparator.h in Headers */,
 				6BFF24022714DE3600183C59 /* ACRChoiceSetViewDataSourceCompactStyle.h in Headers */,
