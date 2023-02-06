@@ -36,3 +36,4 @@ steps:
     destinationPlatformOption: 'iOS'
     destinationSimulators: 'iPhone 12'
     useXcpretty: false
+    args: '-allowProvisioningUpdates'
